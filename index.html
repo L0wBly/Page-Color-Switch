@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Titre page</h1>
+    </header>
+    <main>
+        <div class="main1">
+            <h2>Titre main 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident molestiae repellendus. Debitis explicabo velit mollitia, ipsa, excepturi quibusdam nemo esse, recusandae libero dolorem itaque ratione modi non iusto officia! A, laudantium consequuntur. Id iusto sunt et nobis illo reiciendis earum, labore ipsa, quos doloribus dolorem odit maiores aperiam, quia voluptatum. Unde necessitatibus molestiae, deleniti dolorem esse repudiandae obcaecati facilis facere natus nam dolorum enim mollitia adipisci incidunt laborum hic id maiores cupiditate veritatis nobis in optio. Officiis hic molestias laudantium sed quos quaerat, quam in sit amet accusamus placeat at ea ipsum. Soluta magnam minima alias excepturi culpa doloremque.</p>
+        </div>
+        <div class="main1">
+            <h2>Titre main 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident molestiae repellendus. Debitis explicabo velit mollitia, ipsa, excepturi quibusdam nemo esse, recusandae libero dolorem itaque ratione modi non iusto officia! A, laudantium consequuntur. Id iusto sunt et nobis illo reiciendis earum, labore ipsa, quos doloribus dolorem odit maiores aperiam, quia voluptatum. Unde necessitatibus molestiae, deleniti dolorem esse repudiandae obcaecati facilis facere natus nam dolorum enim mollitia adipisci incidunt laborum hic id maiores cupiditate veritatis nobis in optio. Officiis hic molestias laudantium sed quos quaerat, quam in sit amet accusamus placeat at ea ipsum. Soluta magnam minima alias excepturi culpa doloremque.</p>
+        </div>
+        <div class="main1">
+            <h2>Titre main 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident molestiae repellendus. Debitis explicabo velit mollitia, ipsa, excepturi quibusdam nemo esse, recusandae libero dolorem itaque ratione modi non iusto officia! A, laudantium consequuntur. Id iusto sunt et nobis illo reiciendis earum, labore ipsa, quos doloribus dolorem odit maiores aperiam, quia voluptatum. Unde necessitatibus molestiae, deleniti dolorem esse repudiandae obcaecati facilis facere natus nam dolorum enim mollitia adipisci incidunt laborum hic id maiores cupiditate veritatis nobis in optio. Officiis hic molestias laudantium sed quos quaerat, quam in sit amet accusamus placeat at ea ipsum. Soluta magnam minima alias excepturi culpa doloremque.</p>
+        </div>
+        <div class="main1">
+            <h2>Titre main 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis provident molestiae repellendus. Debitis explicabo velit mollitia, ipsa, excepturi quibusdam nemo esse, recusandae libero dolorem itaque ratione modi non iusto officia! A, laudantium consequuntur. Id iusto sunt et nobis illo reiciendis earum, labore ipsa, quos doloribus dolorem odit maiores aperiam, quia voluptatum. Unde necessitatibus molestiae, deleniti dolorem esse repudiandae obcaecati facilis facere natus nam dolorum enim mollitia adipisci incidunt laborum hic id maiores cupiditate veritatis nobis in optio. Officiis hic molestias laudantium sed quos quaerat, quam in sit amet accusamus placeat at ea ipsum. Soluta magnam minima alias excepturi culpa doloremque.</p>
+        </div>
+    </main>
+    <button id="theme-btn">Sombre</button>
+
+    <script>
+
+var toggle_btn = document.getElementById('theme-btn');
+var body = document.body;
+var dark_theme_class = 'dark';
+
+toggle_btn.addEventListener('click', function() {
+
+ if (body.classList.contains(dark_theme_class)) {
+
+ body.classList.remove(dark_theme_class);
+ toggle_btn.textContent = 'Sombre'
+
+}
+
+ else {
+
+ body.classList.add(dark_theme_class);
+ toggle_btn.textContent = 'Clair'
+}
+
+});
+    </script>
+</body>
+</html>
