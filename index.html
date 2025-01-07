@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="asset/css/style.css">
+    <script src="asset/JS/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -29,29 +30,5 @@
         </div>
     </main>
     <button id="theme-btn">Sombre</button>
-
-    <script>
-
-var toggle_btn = document.getElementById('theme-btn');
-var body = document.body;
-var dark_theme_class = 'dark';
-
-toggle_btn.addEventListener('click', function() {
-
- if (body.classList.contains(dark_theme_class)) {
-
- body.classList.remove(dark_theme_class);
- toggle_btn.textContent = 'Sombre'
-
-}
-
- else {
-
- body.classList.add(dark_theme_class);
- toggle_btn.textContent = 'Clair'
-}
-
-});
-    </script>
 </body>
 </html>
